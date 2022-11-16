@@ -123,7 +123,7 @@ module SamlIdp
     private :reference_string
 
     def entity_id
-      configurator.entity_id.presence || configurator.base_saml_location
+      configurator.base_saml_location || "ERROR must configure config.base_saml_location"
     end
     private :entity_id
 

@@ -1,3 +1,14 @@
+# This fork exists to fix a metadata generation bug in saml_idp
+# https://github.com/saml-idp/saml_idp/issues/71#issuecomment-1049569197
+# Forked repo, applied commit c087bbb and pushed up to our NterOne fork.
+# Do not delete, this is being used by EDGE Focus Web.
+#
+# Dan Mlodecki
+# 16 Nov 2022
+# daniel@nterone.com
+
+
+
 # Ruby SAML Identity Provider (IdP)
 
 Forked from <https://github.com/lawrencepit/ruby-saml-idp>

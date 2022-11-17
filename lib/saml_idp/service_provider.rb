@@ -56,7 +56,7 @@ module SamlIdp
     end
 
     def get_current_or_build
-      persisted = metadata_getter[identifier, self]
+      MetadataBuilder.new.fresh
     end
     private :get_current_or_build
 
